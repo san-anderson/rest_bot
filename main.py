@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import telebot.apihelper
 
 # Ініціалізація бота з токеном
-bot = telebot.TeleBot('8187420980:AAFLfckBFdA8VsaeGVJQXhrLLvK7o_N1KeE')
+bot = telebot.TeleBot('API-ТОКЕН')
 
 # Меню ресторану з цінами та шляхами до фото
 menu = {
