@@ -18,10 +18,38 @@ menu = {
         'Борщ': {
             'price': 60,
             'photo': 'photos/borshch.jpg'
+        },
+        'Солянка': {
+            'price': 65,
+            'photo': 'photos/solyanka.jpg'
+        },
+        'Холодник': {
+            'price': 55,
+            'photo': 'photos/holodnik.jpg'
+        },
+        'Піца Маргарита': {
+            'price': 120,
+            'photo': 'photos/pizza_margarita.jpg'
+        },
+        'Піца 4 Сири': {
+            'price': 150,
+            'photo': 'photos/pizza_4cheese.jpg'
+        },
+        'Піца Папероні': {
+            'price': 140,
+            'photo': 'photos/pizza_pepperoni.jpg'
+        },
+        'Картопля фрі': {
+            'price': 45,
+            'photo': 'photos/french_fries.jpeg'
+        },
+        'Картопля по-селянськи': {
+            'price': 50,
+            'photo': 'photos/country_potatoes.jpg'
         }
     },
     'Салати': {
-        'Салат Цезар': {
+        'Цезар': {
             'price': 80,
             'photo': 'photos/salat_cezar.png'
         },
@@ -32,6 +60,14 @@ menu = {
         'Салат Айзберг': {
             'price': 75,
             'photo': 'photos/salat_iceberg.jpg'
+        },
+        'Грецький': {
+            'price': 85,
+            'photo': 'photos/greek_salad.jpg'
+        },
+        'Вінігрет': {
+            'price': 70,
+            'photo': 'photos/vinigret.jpg'
         }
     },
     'Напої': {
@@ -46,10 +82,17 @@ menu = {
         'Соки': {
             'price': 40,
             'photo': 'photos/photo_soki.jpg'
+        },
+        'Узвар': {
+            'price': 35,
+            'photo': 'photos/uzvar.jpg'
+        },
+        'Квас': {
+            'price': 30,
+            'photo': 'photos/kvas.jpg'
         }
     }
 }
-
 # Modified cart logic with emojis
 cart = {}
 user_data = {}
